@@ -1,0 +1,19 @@
+{
+  "name": "discord-ticket-bot-upgraded",
+  "version": "1.0.0",
+  "description": "Upgraded Discord.js v14 Ticket Bot with category select and staff panel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.0",
+    "@discordjs/rest": "^1.1.0",
+    "fs-extra": "^11.1.1"
+  }
+}
